@@ -15,6 +15,9 @@ Usage
     repositories {
         mavenCentral()
             maven {
+                url "https://github.com/dahlgren/abs-aar/raw/master"
+            }
+            maven {
                 url "https://github.com/dahlgren/holoeverywhere-aar/raw/master"
             }
     }
